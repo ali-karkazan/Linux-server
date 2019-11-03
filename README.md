@@ -139,14 +139,14 @@ I will take you throuh the project step by step
 		`sudo nano /var/www/catalog/catalog.wsgi`
 		Paste the following in it 
 
-		#!/usr/bin/python
+		`#!/usr/bin/python
 		import sys
 		import logging
 		logging.basicConfig(stream=sys.stderr)
 		sys.path.insert(0, "/var/www/catalog/")
 
 		from catalog import app as application
-		application.secret_key = 'super_secret_key'
+		application.secret_key = 'super_secret_key'`
 
 	* CD to the project directory:
 		`sudo cd /var/www/catalog/catalog/`
@@ -177,7 +177,7 @@ I will take you throuh the project step by step
 		`sudo nano /etc/apache2/sites-available/catalog.conf `
 		paste the following:
 
-		<VirtualHost *:80>
+		`<VirtualHost *:80>
 	    ServerName 13.229.203.195
 	    ServerAlias ec2-13-229-203-195.ap-southeast-1.compute.amazonaws.com
 	    WSGIDaemonProcess catalog python-path=/var/www/catalog:/var/www/catalog/venv/lib/python2.7/site-packages
@@ -195,7 +195,7 @@ I will take you throuh the project step by step
 	    ErrorLog ${APACHE_LOG_DIR}/error.log
 	    LogLevel warn
 	    CustomLog ${APACHE_LOG_DIR}/access.log combined
-		</VirtualHost>
+		</VirtualHost>`
 
 	* Database Create and configre:
 		log in to Data base:
