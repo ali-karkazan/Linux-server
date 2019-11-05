@@ -232,3 +232,12 @@ I will take you throuh the project step by step
 		`sudo service apache2 restart`
 
 The Application is now accessable via http://13.229.203.195/
+
+Resources and referances helped in completing this project:
+- https://github.com/juvers/Linux-Configuration
+- https://github.com/stueken/FSND-P5_Linux-Server-Configuration
+- https://www.hcidata.info/host2ip.cgi
+- https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
+- https://askubuntu.com/questions/168280/how-do-i-grant-sudo-privileges-to-an-existing-user
+- https://www.youtube.com/watch?v=HcwK8IWc-a8
+- https://devops.ionos.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
