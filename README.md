@@ -241,3 +241,4 @@ Resources and referances helped in completing this project:
 - https://askubuntu.com/questions/168280/how-do-i-grant-sudo-privileges-to-an-existing-user
 - https://www.youtube.com/watch?v=HcwK8IWc-a8
 - https://devops.ionos.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
+- https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/
